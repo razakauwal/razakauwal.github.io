@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-	position: relative;
+	position: fixed;
 	line-height: 0;
 }
 
@@ -84,14 +84,14 @@ canvas {
 
 /* responsive scaling, because pinball tables are tall */
 @media (min-height: 0px) {
-	.container { transform: scale(0.25); }
+	.container { transform: scale(1.7); }
 }
 @media (min-height: 400px) {
-	.container { transform: scale(0.5); }
+	.container { transform: scale(1.7); }
 }
 @media (min-height: 600px) {
-	.container { transform: scale(0.75); }
+	.container { transform: scale(1.7); }
 }
 @media (min-height: 800px) {
-	.container { transform: scale(1); }
+	.container { transform: scale(1.7); }
 }
